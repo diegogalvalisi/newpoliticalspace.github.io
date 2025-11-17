@@ -6588,11 +6588,11 @@ iframe.contact-page__google-map {
   }
   
   .pt-100 {
-    padding-top: 60px !important;
+    padding-top: 10px !important;
   }
   
   .pb-70 {
-    padding-bottom: 40px !important;
+    padding-bottom: 10px !important;
   }
   
   .pt-80 {
@@ -6670,11 +6670,11 @@ iframe.contact-page__google-map {
   }
   
   .pt-100 {
-    padding-top: 40px !important;
+    padding-top: 10px !important;
   }
   
   .pb-70 {
-    padding-bottom: 30px !important;
+    padding-bottom: 10px !important;
   }
   
   .pt-80 {
@@ -6726,16 +6726,7 @@ iframe.contact-page__google-map {
   }
   
   .po-sin-ch-icon {
-    margin-bottom: 15px;
-  }
-  
-  .po-sin-ch-icon span {
-    width: 50px;
-    height: 50px;
-  }
-  
-  .po-sin-ch-icon img {
-    width: 30px;
+    display: none;
   }
   
   /* CTA section */
@@ -6852,7 +6843,7 @@ iframe.contact-page__google-map {
   }
   
   .pt-100 {
-    padding-top: 40px !important;
+    padding-top: 10px !important;
   }
   
   .team-network-cluster-wrapper {
