@@ -6525,3 +6525,678 @@ iframe.contact-page__google-map {
     transform: translateY(0);
   }
 }
+
+/* ========== Additional Responsive Styles ========== */
+
+/* Large tablets and small desktops (768px - 991px) */
+@media (max-width: 991px) {
+  /* Typography adjustments */
+  .text-40 {
+    font-size: 32px !important;
+  }
+  
+  .text-24 {
+    font-size: 20px !important;
+  }
+  
+  /* Principles wire connection */
+  .po-valus-img img {
+    height: 250px;
+  }
+  
+  .principles-wire-svg {
+    height: calc(100% + 500px);
+  }
+  
+  /* Principle cards */
+  .po-sin-ser-item {
+    margin-bottom: 20px;
+  }
+  
+  /* CTA section */
+  .po-cta-icon a {
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    font-size: 1.3rem;
+  }
+  
+  .po-cta-title {
+    font-size: 32px !important;
+  }
+}
+
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
+  /* Typography */
+  .text-40 {
+    font-size: 28px !important;
+    line-height: 36px !important;
+  }
+  
+  .leading-52 {
+    line-height: 36px !important;
+  }
+  
+  .text-24 {
+    font-size: 18px !important;
+  }
+  
+  /* Spacing */
+  .pt-200 {
+    padding-top: 100px !important;
+  }
+  
+  .pt-100 {
+    padding-top: 60px !important;
+  }
+  
+  .pb-70 {
+    padding-bottom: 40px !important;
+  }
+  
+  .pt-80 {
+    padding-top: 50px !important;
+  }
+  
+  .pb-80 {
+    padding-bottom: 50px !important;
+  }
+  
+  /* About section */
+  .po-about-iner-img {
+    margin-left: 0;
+  }
+  
+  .po-ab-sm-img {
+    display: none;
+  }
+  
+  /* Lightbulb and principles */
+  .po-valus-img img {
+    height: 200px;
+    margin-bottom: 30px;
+  }
+  
+  .principles-wire-container {
+    display: none; /* Hide wires on mobile for cleaner look */
+  }
+  
+  .principle-card {
+    margin-bottom: 20px;
+  }
+  
+  /* CTA section */
+  .po-cta-icon a {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    font-size: 1.2rem;
+    border: 3px solid;
+  }
+  
+  .po-cta-title {
+    font-size: 26px !important;
+    line-height: 34px !important;
+  }
+  
+  .po-cta-content p {
+    padding-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  /* Header adjustments */
+  .po-header-area-4 {
+    padding: 15px 0;
+  }
+}
+
+/* Mobile devices (576px and below) */
+@media (max-width: 576px) {
+  /* Typography */
+  .text-40 {
+    font-size: 24px !important;
+    line-height: 32px !important;
+  }
+  
+  .text-24 {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+  
+  /* Spacing */
+  .pt-200 {
+    padding-top: 80px !important;
+  }
+  
+  .pt-100 {
+    padding-top: 40px !important;
+  }
+  
+  .pb-70 {
+    padding-bottom: 30px !important;
+  }
+  
+  .pt-80 {
+    padding-top: 40px !important;
+  }
+  
+  .pb-80 {
+    padding-bottom: 40px !important;
+  }
+  
+  .pt-32 {
+    padding-top: 20px !important;
+  }
+  
+  .pb-32 {
+    padding-bottom: 20px !important;
+  }
+  
+  .pt-16 {
+    padding-top: 12px !important;
+  }
+  
+  .pb-16 {
+    padding-bottom: 12px !important;
+  }
+  
+  /* About section */
+  .po-about-iner {
+    margin-bottom: 30px;
+  }
+  
+  .po-ab-iner-img img {
+    width: 100%;
+  }
+  
+  .po-about-quote {
+    padding: 12px 16px;
+    font-size: 14px;
+  }
+  
+  /* Lightbulb */
+  .po-valus-img img {
+    height: 180px;
+  }
+  
+  /* Principle cards - full width on mobile */
+  .po-sin-ser-item {
+    margin-bottom: 20px;
+  }
+  
+  .po-sin-ch-icon {
+    margin-bottom: 15px;
+  }
+  
+  .po-sin-ch-icon span {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .po-sin-ch-icon img {
+    width: 30px;
+  }
+  
+  /* CTA section */
+  .po-cta-icon a {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 1rem;
+    border: 2px solid;
+  }
+  
+  .po-cta-title {
+    font-size: 22px !important;
+    line-height: 30px !important;
+    padding-top: 20px !important;
+    padding-bottom: 12px !important;
+  }
+  
+  .po-cta-content p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  
+  /* Buttons */
+  .po-btn-sec {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+  
+  /* Container padding */
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* Extra small devices (480px and below) */
+@media (max-width: 480px) {
+  .text-40 {
+    font-size: 20px !important;
+    line-height: 28px !important;
+  }
+  
+  .text-24 {
+    font-size: 15px !important;
+  }
+  
+  .po-valus-img img {
+    height: 150px;
+  }
+  
+  .po-cta-title {
+    font-size: 20px !important;
+    line-height: 28px !important;
+  }
+  
+  .po-about-quote {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  /* Team network - even smaller */
+  .team-network-cluster-wrapper {
+    height: 600px;
+  }
+  
+  .center-avatar {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .center-icon {
+    font-size: 24px;
+  }
+  
+  .cluster-center {
+    width: 55px;
+    height: 55px;
+  }
+  
+  .cluster-icon {
+    font-size: 14px;
+  }
+  
+  .cluster-label {
+    font-size: 7px;
+    display: none; /* Hide labels on very small screens */
+  }
+  
+  .member-avatar {
+    width: 50px;
+    height: 50px;
+    border-width: 2px;
+  }
+  
+  .member-info {
+    display: none; /* Hide member info on very small screens */
+  }
+  
+  .member-badges {
+    display: none;
+  }
+}
+
+/* Landscape mobile adjustments */
+@media (max-width: 767px) and (orientation: landscape) {
+  .pt-200 {
+    padding-top: 60px !important;
+  }
+  
+  .pt-100 {
+    padding-top: 40px !important;
+  }
+  
+  .team-network-cluster-wrapper {
+    height: 500px;
+  }
+}
+
+/* ========== Mission & Vision Section Mobile Fixes ========== */
+
+/* Tablets and below (768px) */
+@media (max-width: 768px) {
+  .po-missinon-2 {
+    padding-top: 60px !important;
+    padding-bottom: 40px !important;
+  }
+  
+  .po-missinon-2 .mb-60 {
+    margin-bottom: 30px;
+  }
+  
+  .po-missinon-2 .text-40 {
+    font-size: 28px !important;
+    line-height: 36px !important;
+  }
+  
+  .po-missinon-2 .leading-52 {
+    line-height: 36px !important;
+  }
+  
+  /* Simplify nav tabs for mobile - make them accordion-style */
+  .po-missinon-2 #nav-tab .row {
+    gap: 15px;
+  }
+  
+  .po-missinon-2 .col-xl-4.col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  .po-nav-link {
+    margin-bottom: 0;
+  }
+  
+  .po-nav-ic-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+  }
+  
+  .po-naviicon {
+    padding-top: 0 !important;
+    flex-shrink: 0;
+  }
+  
+  .po-naviicon span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+  
+  .po-nav-content {
+    flex: 1;
+  }
+  
+  .po-nav-content h3 {
+    padding-top: 0 !important;
+    font-size: 20px !important;
+    line-height: 28px !important;
+  }
+  
+  .po-tab-content p {
+    font-size: 14px;
+    line-height: 24px !important;
+  }
+}
+
+/* Mobile (576px and below) */
+@media (max-width: 576px) {
+  .po-missinon-2 {
+    padding-top: 40px !important;
+    padding-bottom: 30px !important;
+  }
+  
+  .po-missinon-2 .mb-60 {
+    margin-bottom: 25px;
+  }
+  
+  .po-missinon-2 .sec-subtitle {
+    font-size: 14px;
+  }
+  
+  .po-missinon-2 .text-40 {
+    font-size: 24px !important;
+    line-height: 32px !important;
+  }
+  
+  .po-missinon-2 .sec-title-2 {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+  }
+  
+  .po-missinon-2 .po-section-title p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  
+  .po-missinon-2 .po-section-title p br {
+    display: none;
+  }
+  
+  .po-missinon-2 .mb-40 {
+    margin-bottom: 25px !important;
+  }
+  
+  .po-nav-ic-box {
+    padding: 16px;
+    gap: 12px;
+  }
+  
+  .po-naviicon span {
+    width: 45px;
+    height: 45px;
+    font-size: 1.3rem;
+  }
+  
+  .po-nav-content h3 {
+    font-size: 18px !important;
+    line-height: 26px !important;
+  }
+  
+  .po-tab-content p {
+    font-size: 13px;
+    line-height: 22px !important;
+    padding-top: 12px !important;
+  }
+}
+
+/* Extra small (480px and below) */
+@media (max-width: 480px) {
+  .po-missinon-2 .text-40 {
+    font-size: 22px !important;
+    line-height: 30px !important;
+  }
+  
+  .po-nav-ic-box {
+    padding: 14px;
+  }
+  
+  .po-naviicon span {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+  
+  .po-nav-content h3 {
+    font-size: 17px !important;
+    line-height: 24px !important;
+  }
+  
+  .po-tab-content p {
+    font-size: 12px;
+    line-height: 20px !important;
+  }
+}
+
+/* ========== Service Section Mobile Fixes ========== */
+
+/* Tablets (991px and below) */
+@media (max-width: 991px) {
+  .po-service-section-4 .mb-60 {
+    margin-bottom: 40px;
+  }
+  
+  .po-service-box-4 {
+    padding: 30px 20px;
+  }
+  
+  .po-ser-box-icon {
+    padding-bottom: 20px !important;
+  }
+  
+  .po-ser-box-icon span {
+    font-size: 2rem;
+  }
+  
+  .po-ser-box-icon .eu-flag {
+    width: 50px;
+    height: auto;
+  }
+}
+
+/* Mobile devices (768px and below) */
+@media (max-width: 768px) {
+  .po-service-section-4 {
+    padding-top: 60px !important;
+    padding-bottom: 40px !important;
+  }
+  
+  .po-service-section-4 .mb-60 {
+    margin-bottom: 30px;
+  }
+  
+  .po-service-section-4 .sec-title-4 {
+    font-size: 28px !important;
+    line-height: 36px !important;
+  }
+  
+  .po-service-section-4 p br {
+    display: none; /* Remove line breaks on mobile */
+  }
+  
+  .po-service-box-4 {
+    padding: 25px 20px;
+    margin-bottom: 20px;
+  }
+  
+  .po-ser-bx-shape {
+    opacity: 0.3; /* Reduce shape opacity on mobile */
+  }
+  
+  .po-ser-box-icon {
+    padding-bottom: 16px !important;
+  }
+  
+  .po-ser-box-icon span {
+    font-size: 1.8rem;
+  }
+  
+  .po-ser-box-icon .eu-flag {
+    width: 45px;
+  }
+  
+  .po-ser-box-con-4 h2 {
+    font-size: 20px !important;
+    line-height: 28px !important;
+  }
+  
+  .po-ser-box-con-4 p {
+    font-size: 14px;
+    line-height: 22px !important;
+  }
+  
+  .pread-more4 {
+    margin-top: 12px;
+  }
+  
+  .po-readmore4 {
+    font-size: 14px;
+  }
+}
+
+/* Small mobile (576px and below) */
+@media (max-width: 576px) {
+  .po-service-section-4 {
+    padding-top: 40px !important;
+    padding-bottom: 30px !important;
+  }
+  
+  .po-service-section-4 .mb-60 {
+    margin-bottom: 25px;
+  }
+  
+  .po-service-section-4 .sec-subtitle-4 {
+    font-size: 14px;
+  }
+  
+  .po-service-section-4 .sec-title-4 {
+    font-size: 24px !important;
+    line-height: 32px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+  }
+  
+  .po-service-section-4 .po-sec-title-4 > p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  
+  .po-service-box-4 {
+    padding: 20px 18px;
+  }
+  
+  .po-ser-box-icon {
+    padding-bottom: 16px !important;
+  }
+  
+  .po-ser-box-icon span {
+    font-size: 1.6rem;
+  }
+  
+  .po-ser-box-icon .eu-flag {
+    width: 40px;
+  }
+  
+  .po-ser-box-con-4 h2 {
+    font-size: 18px !important;
+    line-height: 26px !important;
+  }
+  
+  .po-ser-box-con-4 p {
+    font-size: 13px;
+    line-height: 20px !important;
+    padding-top: 12px !important;
+  }
+  
+  .col-xl-4.col-md-6 {
+    margin-bottom: 20px;
+  }
+}
+
+/* Extra small devices (480px and below) */
+@media (max-width: 480px) {
+  .po-service-section-4 .sec-title-4 {
+    font-size: 22px !important;
+    line-height: 30px !important;
+  }
+  
+  .po-service-box-4 {
+    padding: 18px 16px;
+  }
+  
+  .po-ser-box-icon span {
+    font-size: 1.5rem;
+  }
+  
+  .po-ser-box-icon .eu-flag {
+    width: 35px;
+  }
+  
+  .po-ser-box-con-4 h2 {
+    font-size: 17px !important;
+    line-height: 24px !important;
+  }
+  
+  .po-ser-box-con-4 p {
+    font-size: 12px;
+    line-height: 19px !important;
+  }
+  
+  .po-readmore4 {
+    font-size: 13px;
+  }
+}
