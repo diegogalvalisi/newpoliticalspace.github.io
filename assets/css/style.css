@@ -7022,6 +7022,250 @@ iframe.contact-page__google-map {
   }
 }
 
+/* ========== Team Network Section Mobile Fixes ========== */
+
+/* Tablets (991px and below) */
+@media (max-width: 991px) {
+  .team-network-cluster-wrapper {
+    height: 750px !important;
+    padding: 30px 0;
+  }
+  
+  .network-center-node .center-avatar {
+    width: 110px;
+    height: 110px;
+  }
+  
+  .center-icon {
+    font-size: 38px;
+  }
+  
+  .cluster-center {
+    width: 85px;
+    height: 85px;
+  }
+  
+  .cluster-icon {
+    font-size: 22px;
+  }
+  
+  .cluster-label {
+    font-size: 8px;
+    max-width: 70px;
+  }
+  
+  .member-avatar {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .member-info h5 {
+    font-size: 11px;
+  }
+  
+  .member-info span {
+    font-size: 9px;
+  }
+}
+
+/* Mobile devices (768px and below) - Stack layout */
+@media (max-width: 768px) {
+  .team-network-cluster-wrapper {
+    height: auto !important;
+    padding: 20px 0;
+    position: relative;
+  }
+  
+  /* Hide circular network layout on mobile */
+  .network-connections-svg {
+    display: none;
+  }
+  
+  .network-center-node,
+  .cluster-group {
+    display: none;
+  }
+  
+  /* Show team members in grid */
+  .team-members-layer {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0 15px;
+  }
+  
+  .team-member {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    transform: none !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .member-avatar {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 12px;
+  }
+  
+  .member-badges {
+    top: -5px;
+    right: -5px;
+    flex-direction: row;
+    gap: 4px;
+  }
+  
+  .badge {
+    width: 22px;
+    height: 22px;
+    font-size: 9px;
+  }
+  
+  .member-info {
+    max-width: 100%;
+  }
+  
+  .member-info h5 {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  
+  .member-info span {
+    font-size: 11px;
+    margin-bottom: 8px;
+  }
+  
+  .member-social {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .member-social a {
+    width: 26px;
+    height: 26px;
+    font-size: 11px;
+  }
+  
+  .cta-section .po-section-title-2 .text-40 {
+    font-size: 28px !important;
+    line-height: 36px !important;
+  }
+  
+  .cta-section .po-section-title-2 .leading-52 {
+    line-height: 36px !important;
+  }
+  
+  .cta-section .po-section-title-2 p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  
+  .cta-section .po-section-title-2 p br {
+    display: none;
+  }
+}
+
+/* Mobile (576px and below) - Single column */
+@media (max-width: 576px) {
+  .team-members-layer {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 0 10px;
+  }
+  
+  .member-avatar {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .member-badges {
+    top: -6px;
+    right: -6px;
+  }
+  
+  .badge {
+    width: 24px;
+    height: 24px;
+    font-size: 10px;
+  }
+  
+  .member-info h5 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .member-info span {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .member-social a {
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+    gap: 6px;
+  }
+  
+  .cta-section .po-section-title-2 .sec-subtitle {
+    font-size: 14px;
+  }
+  
+  .cta-section .po-section-title-2 .text-40 {
+    font-size: 24px !important;
+    line-height: 32px !important;
+  }
+  
+  .cta-section .po-section-title-2 .pt-16 {
+    padding-top: 12px !important;
+  }
+  
+  .cta-section .po-section-title-2 .pb-16 {
+    padding-bottom: 12px !important;
+  }
+  
+  .cta-section.pt-80 {
+    padding-top: 50px !important;
+  }
+  
+  .cta-section.pb-80 {
+    padding-bottom: 50px !important;
+  }
+}
+
+/* Extra small (480px and below) */
+@media (max-width: 480px) {
+  .member-avatar {
+    width: 110px;
+    height: 110px;
+  }
+  
+  .member-info h5 {
+    font-size: 15px;
+  }
+  
+  .member-info span {
+    font-size: 11px;
+  }
+  
+  .cta-section .po-section-title-2 .text-40 {
+    font-size: 22px !important;
+    line-height: 30px !important;
+  }
+  
+  .cta-section.pt-80 {
+    padding-top: 40px !important;
+  }
+  
+  .cta-section.pb-80 {
+    padding-bottom: 40px !important;
+  }
+}
+
 /* ========== Service Section Mobile Fixes ========== */
 
 /* Tablets (991px and below) */
