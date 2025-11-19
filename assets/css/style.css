@@ -3713,6 +3713,18 @@ a.po-blg-meta-date {
 .footer-bg-1{
     background: #F8F7F7;
 }
+
+/* Mobile footer padding */
+@media (max-width: 767px) {
+    .po-footer-section {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+    .po-footer .pb-32 {
+        padding-bottom: 40px !important;
+    }
+}
+
 .widget-1 p {
     color: #5A5A63;
     line-height: 26px;
