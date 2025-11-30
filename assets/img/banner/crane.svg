@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   height="994.99066"
+   width="600.52515"
+   version="1.1"
+   id="Layer_1"
+   viewBox="0 0 384.33609 636.79402"
+   xml:space="preserve"
+   sodipodi:docname="crane.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs11"><clipPath
+     id="clip0_503_2543"><rect
+       width="28"
+       height="20"
+       rx="2"
+       fill="white"
+       id="rect4" /></clipPath></defs><sodipodi:namedview
+   id="namedview11"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="1.2375"
+   inkscape:cx="253.73737"
+   inkscape:cy="390.70707"
+   inkscape:window-width="1366"
+   inkscape:window-height="697"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<polygon
+   class="isometric_acht"
+   points="10,13.466 16,16.923 10,20.356 4,16.915 "
+   id="polygon3"
+   style="fill:#c92c00;fill-opacity:1"
+   transform="matrix(26.086497,0,0,26.086497,-65.229074,-90.702351)" /><path
+   style="fill:#666666;fill-opacity:1"
+   d="m 298.5344,304.26857 -96.203,-42.089 v -74.745 c 0,-4.355 -3.529,-7.885 -7.885,-7.885 -4.356,0 -7.885,3.53 -7.885,7.885 v 74.745 l -96.202995,42.089 c -3.99,1.745 -5.809,6.395 -4.063,10.384 1.745,3.989 6.393,5.808 10.384,4.063 l 97.766995,-42.773 93.043,40.707 v 188.289 c 0,4.355 3.529,7.885 7.885,7.885 4.356,0 7.885,-3.53 7.885,-7.885 v -193.446 c 0,-3.132 -1.854,-5.968 -4.725,-7.224 z"
+   id="path9" /><path
+   style="fill:#f7d04a"
+   d="M 219.1524,112.49957 V 52.864565 c 0,-4.355 -3.529,-7.885 -7.885,-7.885 h -33.643 c -4.356,0 -7.885,3.53 -7.885,7.885 V 153.96857 c 0,2.106 0.843,4.125 2.34,5.607 1.477,1.46 3.47,2.278 5.545,2.278 0.028,0 0.058,0 0.087,0 6.357,-0.071 16.06,-0.176 16.734,-0.176 12.804,0 17.347,9.345 17.347,17.347 0,9.565 -7.782,17.347 -17.347,17.347 -9.565,0 -17.347,-7.782 -17.347,-17.347 0,-4.355 -3.529,-7.885 -7.885,-7.885 h -37.847 c -4.356,0 -7.885,3.53 -7.885,7.885 0,39.131 31.834,70.965 70.965,70.965 39.131,0 70.965,-31.834 70.965,-70.965 0,-29.765 -18.74,-56.306 -46.259,-66.525 z"
+   id="path1" />
+<path
+   style="fill:#333333"
+   d="m 219.1524,52.864565 c 0,-4.355 -3.529,-7.885 -7.885,-7.885 h -33.643 c -4.356,0 -7.885,3.53 -7.885,7.885 v 59.225005 l 3.68,8.061 h 42.053 l 3.68,-8.061 z"
+   id="path2" />
+<path
+   style="fill:#999999;fill-opacity:1"
+   d="m 219.1524,112.49957 v -0.409 h -49.413 v 41.878 c 0,2.106 0.843,4.125 2.34,5.607 1.477,1.46 3.47,2.278 5.545,2.278 0.028,0 0.058,0 0.087,0 6.357,-0.071 16.06,-0.176 16.734,-0.176 12.804,0 17.347,9.345 17.347,17.347 0,9.565 -7.782,17.347 -17.347,17.347 -9.565,0 -17.347,-7.782 -17.347,-17.347 0,-4.355 -3.529,-7.885 -7.885,-7.885 h -37.847 c -4.356,0 -7.885,3.53 -7.885,7.885 0,39.131 31.834,70.965 70.965,70.965 39.131,0 70.965,-31.834 70.965,-70.965 0,-29.765 -18.74,-56.306 -46.259,-66.525 z"
+   id="path3" />
+<path
+   style="fill:#eb3400;fill-opacity:1"
+   d="m 236.4994,2.925565 h -84.107 c -4.356,0 -7.885,3.53 -7.885,7.885 v 67.285 c 0,2.637 1.317,5.099 3.511,6.56 l 25.232,16.821005 c 1.294,0.863 2.818,1.325 4.374,1.325 h 33.643 c 1.556,0 3.079,-0.46 4.374,-1.325 l 25.232,-16.821005 c 2.194,-1.462 3.511,-3.924 3.511,-6.56 v -67.285 c 0,-4.354 -3.529,-7.885 -7.885,-7.885 z"
+   id="path4" />
+<path
+   style="fill:#b12700;fill-opacity:1"
+   d="m 152.3934,2.925565 c -4.356,0 -7.885,3.53 -7.885,7.885 v 67.285 c 0,2.637 1.317,5.099 3.511,6.56 l 25.232,16.821005 c 1.294,0.863 2.818,1.325 4.374,1.325 h 0.35 V 2.925565 Z"
+   id="path5" />
+
+
+
+
+
+
+<polygon
+   class="isometric_negen"
+   points="16,24.536 16,16.923 10,20.356 10,28 "
+   id="polygon4"
+   style="fill:#eb3400;fill-opacity:1"
+   transform="matrix(26.086497,0,0,26.086497,-65.229074,-90.702348)" /><polygon
+   class="isometric_zeven"
+   points="4,24.536 4,16.915 10,20.356 10,28 "
+   id="polygon5"
+   style="fill:#af2700;fill-opacity:1"
+   transform="matrix(26.086497,0,0,26.086497,-65.229074,-90.702348)" /><line
+   class="isometric_twaalf"
+   x1="-32.181213"
+   y1="616.5484"
+   x2="123.3465"
+   y2="526.18488"
+   id="line5"
+   style="fill:#569080;stroke-width:26.0865" /><rect
+   style="fill:#666666;fill-opacity:1;stroke-width:3.53709;stroke-linejoin:round;paint-order:fill markers stroke"
+   id="rect12"
+   width="15.729371"
+   height="56.433186"
+   x="186.5808"
+   y="194.36119" /></svg>

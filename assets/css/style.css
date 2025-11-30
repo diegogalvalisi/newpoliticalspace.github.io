@@ -926,6 +926,80 @@ section.po-bnr-4 {
         top: 150px;
         width: 50px;
     }
+    
+    /* Tablet header adjustments */
+    .po-header-area-4 {
+        padding: 12px 0;
+    }
+    
+    .po-header-border {
+        padding-top: 16px;
+        padding-bottom: 20px;
+    }
+    
+    /* Make header menu visible and properly laid out */
+    .po-header-area-4 .row {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .po-header-area-4 .col-lg-4 {
+        flex: 0 0 auto;
+        width: auto;
+    }
+    
+    .po-header-area-4 .col-lg-8,
+    .po-header-area-4 .col-md-6 {
+        flex: 0 0 auto;
+        width: auto;
+    }
+    
+    .po-main-menu-4 {
+        text-align: left !important;
+    }
+    
+    .po-main-menu-4 ul {
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 0.5rem !important;
+        justify-content: flex-start !important;
+    }
+    
+    .po-main-menu-4 ul li {
+        display: inline-flex !important;
+    }
+    
+    .po-main-menu-4 ul li a {
+        font-size: 14px !important;
+        padding: 6px 10px !important;
+    }
+    
+    .po-header-btn-3 {
+        flex-shrink: 0;
+        text-align: right !important;
+    }
+    
+    .po-header-btn-3 .po-btn-sec-4 {
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+    
+    .po-btn-wrap span {
+        font-size: 13px;
+    }
+    
+    /* Ensure Join Us button doesn't wrap */
+    .po-btn-y-1 {
+        white-space: nowrap;
+    }
+    
+    /* Hide EU flag image and folder on tablet */
+    .po-about-iner,
+    .po-valus-img {
+        display: none !important;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -1347,7 +1421,8 @@ span.next_arrow3:hover {
 
 
 .po-abo-img-1 {
-    transform: translateX(370px);
+    transform: translateX(75%);
+    position: relative;
 }
  
 
@@ -3462,22 +3537,22 @@ a.po-blg-meta-date {
 /* Gray background section styles */
 .gray-bg .po-cta-icon a {
     background: #fff;
-    border: 5px solid #15213D;
-    color: #15213D;
+    border: 5px solid #01020E;
+    color: #01020E;
 }
 
 .gray-bg .po-cta-icon a:hover {
-    background: #15213D;
-    border: 5px solid #15213D;
+    background: #01020E;
+    border: 5px solid #01020E;
     color: #fff;
 }
 
 .gray-bg .po-cta-content h3 {
-    color: #15213D;
+    color: #01020E;
 }
 
 .gray-bg .po-cta-content p {
-    color: #5A5A63;
+    color: #01020E;
 }
 
 .po-cta-subcribe input[type="email"] {
@@ -3753,11 +3828,11 @@ a.po-blg-meta-date {
 
     /* progress home 4 */
     .progress-wrap-4::after {
-        color:#eb3400;
+        color:#00b7eb;
     }
      
     .progress-wrap-4 svg.progress-circle path {
-        stroke: #eb3400; 
+        stroke: #00b7eb; 
     }
 
 /* ==========================
@@ -4347,10 +4422,10 @@ transform: rotate(27deg);
     background: #F8E8E5;
     height: 64px;
     width: 64px;
-    line-height: 64px;
+    line-height: 1;
     text-align: center;
     border-radius: 50px;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -4359,6 +4434,14 @@ transform: rotate(27deg);
     max-width: 50%;
     max-height: 50%;
     object-fit: contain;
+    display: block;
+}
+
+.po-sin-ch-icon span svg {
+    max-width: 50%;
+    max-height: 50%;
+    object-fit: contain;
+    display: block;
 }
 
 .po-sin-ch-item {
@@ -4378,72 +4461,73 @@ transform: rotate(27deg);
 
 /* Principles Wire Connection Styles */
 .principles-wire-container {
+    display: none;
+}
+
+/* Interactive Folder Icon - Shape-Following Glow Effect */
+.po-valus-img {
     position: relative;
-    width: 100%;
-    height: 0;
-    pointer-events: none;
-    z-index: 1;
+    display: block;
+    cursor: pointer;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.principles-wire-svg {
+
+/* Click/Hand icon inside the folder */
+.document-icon {
     position: absolute;
-    top: -100px;
-    left: 0;
-    width: 100%;
-    height: calc(100% + 600px);
-    pointer-events: none;
-    z-index: 1;
-}
-
-.principle-wire {
-    stroke: #9696a0;
-    stroke-width: 2;
-    fill: none;
-    stroke-dasharray: 5, 5;
-    opacity: 0.4;
-    transition: all 0.3s ease;
-}
-
-.principle-wire.active {
-    stroke: #E31112;
-    stroke-width: 3;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
     opacity: 1;
-    animation: energyFlow 1.5s ease-in-out infinite;
+    pointer-events: none;
+    animation: clickFolder 2.5s ease-in-out infinite;
+    transition: all 0.5s ease;
+    z-index: 2;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
-/* Energy pulse animation */
-@keyframes energyFlow {
-    0% {
-        stroke-dashoffset: 0;
-        opacity: 0.4;
-    }
-    50% {
-        opacity: 1;
-        filter: drop-shadow(0 0 8px #E31112);
-    }
-    100% {
-        stroke-dashoffset: 20;
-        opacity: 0.4;
-    }
+.document-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
-/* Lightbulb glow effect when receiving energy */
-#lightbulb-source {
-    transition: filter 0.3s ease;
-}
-
-#lightbulb-source.receiving-energy {
-    filter: drop-shadow(0 0 20px rgba(230, 207, 5, 0.6)) brightness(1.2);
-    animation: lightbulbPulse 1.5s ease-in-out infinite;
-}
-
-@keyframes lightbulbPulse {
+@keyframes clickFolder {
     0%, 100% {
-        filter: drop-shadow(0 0 15px rgba(230, 207, 5, 0.4)) brightness(1.1);
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
     }
     50% {
-        filter: drop-shadow(0 0 25px rgba(230, 178, 5, 0.8)) brightness(1.3);
+        transform: translate(-50%, -50%) scale(1.2);
+        opacity: 1;
     }
+}
+
+.po-valus-img:hover .document-icon {
+    animation: clickFolderFast 1.7s ease-in-out infinite;
+}
+
+@keyframes clickFolderFast {
+    0%, 100% {
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.3);
+    }
+}
+
+/* Click feedback */
+.po-valus-img:active {
+    transform: scale(0.98);
+}
+
+.po-valus-img:active::before {
+    transform: translate(-50%, -50%) scale(0.95);
 }
 
 .principle-card {
@@ -4490,8 +4574,7 @@ transform: rotate(27deg);
 
     .po-valus .row > [class*="col-"] {
         flex: 0 0 auto;
-        min-width: 280px;
-        max-width: 320px;
+        
     }
 }
 
@@ -6047,14 +6130,14 @@ iframe.contact-page__google-map {
 }
 
 /* on small screens revert to vertical nav */
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .po-main-menu-4 ul { display: block !important; overflow: visible !important; }
   .po-main-menu-4 ul li { display: block !important; }
 }
 
 
-/* keep header menu items on one line (desktop) */
-@media (min-width: 992px) {
+/* keep header menu items on one line (desktop and tablet) */
+@media (min-width: 768px) {
   .po-main-menu-4 ul {
     display: flex !important;
     flex-wrap: nowrap !important;
@@ -6077,7 +6160,7 @@ iframe.contact-page__google-map {
 }
 
 /* on small screens revert to vertical nav */
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .po-main-menu-4 ul { display: block !important; overflow: visible !important; }
   .po-main-menu-4 ul li { display: block !important; }
 }
@@ -6743,13 +6826,10 @@ border-radius: 10% !important;
     font-size: 20px !important;
   }
   
-  /* Principles wire connection */
-  .po-valus-img img {
-    height: 250px;
-  }
-  
-  .principles-wire-svg {
-    height: calc(100% + 500px);
+  /* Hide megaphone and EU flag images on tablets */
+  .po-baner-img-4,
+  .po-ab-4-img {
+    display: none !important;
   }
   
   /* Principle cards */
@@ -7711,6 +7791,43 @@ border-radius: 10% !important;
     width: 50px;
     height: auto;
   }
+  
+  /* Show principle icons on tablets, positioned left */
+  .po-sin-ser-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .po-sin-ch-icon {
+    display: block;
+    flex-shrink: 0;
+    width: 50px;
+    margin-top: 24px;
+  }
+  
+  .po-sin-ch-icon span {
+    
+    width: 50px;
+    height: 50px;
+  }
+  
+  .po-sin-ch-icon span img,
+  .po-sin-ch-icon span svg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .po-sin-ser-item > div:not(.po-sin-ch-icon) {
+    flex: 1;
+  }
+  
+  /* Hide lightbulb image in principles section on tablets */
+  .po-valus-img {
+    display: none;
+  }
 }
 
 /* Mobile devices (768px and below) */
@@ -7736,6 +7853,10 @@ border-radius: 10% !important;
   .po-service-box-4 {
     padding: 25px 20px;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
   }
   
   .po-ser-bx-shape {
@@ -7743,20 +7864,66 @@ border-radius: 10% !important;
   }
   
   .po-ser-box-icon {
-    padding-bottom: 16px !important;
+    padding-bottom: 0 !important;
+    flex-shrink: 0;
+  }
+  
+  /* Show principle icons on mobile, positioned left */
+  .po-sin-ser-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  
+  .po-sin-ch-icon {
+    display: block;
+    flex-shrink: 0;
+    width: 40px;
+    margin-top: 24px;
+  }
+  
+  .po-sin-ch-icon span {
+    
+    width: 40px;
+    height: 40px;
+  }
+  
+  .po-sin-ch-icon span img,
+  .po-sin-ch-icon span svg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .principle-content {
+    flex: 1;
+  }
+  
+  .principle-content h3 {
+    font-size: 20px !important;
+    line-height: 28px !important;
   }
   
   .po-ser-box-icon span {
     font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .po-ser-box-icon .eu-flag {
     width: 45px;
   }
   
+  .po-ser-box-con-4 {
+    flex: 1;
+  }
+  
   .po-ser-box-con-4 h2 {
     font-size: 20px !important;
     line-height: 28px !important;
+    padding-top: 0 !important;
   }
   
   .po-ser-box-con-4 p {

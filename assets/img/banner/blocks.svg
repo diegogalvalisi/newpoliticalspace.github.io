@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+
+<svg
+   version="1.1"
+   id="Uploaded to svgrepo.com"
+   width="800px"
+   height="800px"
+   viewBox="0 0 32 32"
+   xml:space="preserve"
+   fill="#000000"
+   sodipodi:docname="blocks.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs11" /><sodipodi:namedview
+   id="namedview11"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="0.43752232"
+   inkscape:cx="388.5516"
+   inkscape:cy="375.98082"
+   inkscape:window-width="1366"
+   inkscape:window-height="697"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="g11" />
+
+<g
+   id="SVGRepo_bgCarrier"
+   stroke-width="0" />
+
+<g
+   id="SVGRepo_tracerCarrier"
+   stroke-linecap="round"
+   stroke-linejoin="round" />
+
+<g
+   id="SVGRepo_iconCarrier"> <style
+   type="text/css"
+   id="style1"> .isometric_vijf{fill:#F29227;} .isometric_zes{fill:#F28103;} .isometric_zeven{fill:#FF7344;} .isometric_acht{fill:#F05A28;} .isometric_negen{fill:#BE1E2D;} .isometric_tien{fill:#7BD6C4;} .isometric_elf{fill:#72C0AB;} .isometric_twaalf{fill:#569080;} .st0{fill:#225B49;} .st1{fill:#F8F7C5;} .st2{fill:#BE1E2D;} .st3{fill:#AD9A74;} .st4{fill:#F2D76C;} .st5{fill:#F5DF89;} .st6{fill:#7BD6C4;} .st7{fill:#80CCBE;} </style> <g
+   id="g11"> <line
+   class="isometric_twaalf"
+   x1="10"
+   y1="20.356"
+   x2="16"
+   y2="16.923"
+   id="line1" />   <line
+   class="isometric_twaalf"
+   x1="10"
+   y1="20.356"
+   x2="16"
+   y2="16.923"
+   id="line2" /> <polygon
+   class="isometric_acht"
+   points="4,16.915 10,13.466 16,16.923 10,20.356 "
+   id="polygon3"
+   style="fill:#c92c00;fill-opacity:1"
+   transform="translate(6.0339776,-11.062293)" /> <polygon
+   class="isometric_negen"
+   points="10,28 16,24.536 16,16.923 10,20.356 "
+   id="polygon4"
+   style="fill:#eb3400;fill-opacity:1"
+   transform="translate(6.0339776,-11.062293)" /> <polygon
+   class="isometric_zeven"
+   points="10,28 4,24.536 4,16.915 10,20.356 "
+   id="polygon5"
+   style="fill:#af2700;fill-opacity:1"
+   transform="translate(6.0339776,-11.062293)" /> <line
+   class="isometric_twaalf"
+   x1="7.3008342"
+   y1="15.534009"
+   x2="13.262835"
+   y2="12.07001"
+   id="line5" /> <polygon
+   class="isometric_zes"
+   points="16,16.923 21.962,13.456 27.962,16.915 22,20.379 "
+   id="polygon6"
+   style="fill:#d6ab00;fill-opacity:1"
+   transform="translate(-11.956449,4.7578504e-4)" /> <polygon
+   class="isometric_vijf"
+   points="22,28 16,24.536 16,16.923 22,20.379 "
+   id="polygon7"
+   style="fill:#bc9600;fill-opacity:1"
+   transform="translate(-11.956449,4.7578504e-4)" /> <polygon
+   class="isometric_acht"
+   points="22,28 27.962,24.536 27.962,16.915 22,20.379 "
+   id="polygon8"
+   style="fill:#ffcc00;fill-opacity:1"
+   transform="translate(-11.956449,4.7578504e-4)" /> <line
+   class="isometric_twaalf"
+   x1="22.0072"
+   y1="20.38339"
+   x2="27.9692"
+   y2="16.92539"
+   id="line8" /> <polygon
+   class="isometric_elf"
+   points="21.962,5.865 16,9.323 10,5.865 16.037,2.406 "
+   id="polygon9"
+   style="fill:#002e89;fill-opacity:1"
+   transform="translate(6.0072005,11.06039)" /> <polygon
+   class="isometric_twaalf"
+   points="21.962,5.865 16,9.323 16,16.923 21.962,13.456 "
+   id="polygon10"
+   style="fill:#003399;fill-opacity:1"
+   transform="translate(6.0072005,11.06039)" /> <polygon
+   class="isometric_tien"
+   points="10,5.865 16,9.323 16,16.923 10,13.466 "
+   id="polygon11"
+   style="fill:#002368;fill-opacity:1"
+   transform="translate(6.0072005,11.06039)" /> </g> </g>
+
+</svg>
