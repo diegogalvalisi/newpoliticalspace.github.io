@@ -8033,6 +8033,21 @@ border-radius: 10% !important;
   }
 }
 
+/* Mobile responsive for banner title */
+@media (max-width: 768px) {
+  .po-baner-content-4 .text-50 {
+    font-size: 32px !important;
+    line-height: 42px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .po-baner-content-4 .text-50 {
+    font-size: 28px !important;
+    line-height: 38px !important;
+  }
+}
+
 /* Custom underline style for emphasis text */
 u {
   text-decoration: none;
