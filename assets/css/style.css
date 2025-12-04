@@ -8046,6 +8046,23 @@ border-radius: 10% !important;
     font-size: 28px !important;
     line-height: 38px !important;
   }
+  
+  .po-about-area {
+    padding-top: 130px !important;
+  }
+}
+
+/* Bouncing arrow animation */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
 }
 
 /* Custom underline style for emphasis text */
@@ -8055,6 +8072,29 @@ u {
   padding-bottom: 2px;
   text-decoration-skip-ink: none;
   color: #000;
+}
+
+/* Mobile arrow connector */
+.mobile-arrow-connector {
+  padding: 20px 0;
+  margin: 0;
+}
+
+.arrow-icon {
+  font-size: 40px;
+  color: #E31112;
+  display: inline-block;
+  animation: bounce 2s infinite;
+}
+
+/* Black numbers in orientation titles on tablet and mobile */
+@media (max-width: 768px) {
+  .po-service-box-4 .sec-title-4 a {
+    background: linear-gradient(to right, #000 0%, #000 15%, currentColor 15%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 .po-faq-sec-3 a {
