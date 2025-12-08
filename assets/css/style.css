@@ -1847,6 +1847,10 @@ span.next_arrow {
     color: #fff;
     transition: .3s;
 }
+.po-service-box-4:hover .po-ser-box-con-4 .sec-title-4 a{
+    color: #fff !important;
+    transition: .3s;
+}
 .po-service-box-4:hover .po-ser-box-con-4 p{
     color: #fff;
     transition: .3s;
@@ -5025,6 +5029,11 @@ a.sidebar-con {
 .po-sidebar-details p{
     color: #5A5A63;
 }
+
+.po-sidebar-details p b{
+    font-weight: 600 !important;
+}
+
 .po-ser-sm-thumb img {
     height: 260px;
     object-fit: cover;
@@ -8099,4 +8108,15 @@ u {
 
 .po-faq-sec-3 a {
     color:#eb3400;
+}
+
+/* Orientation links - default orange color */
+.po-service-box-4 .sec-title-4 a {
+    color: #eb3400;
+}
+
+
+/* Semi-bold styling for b tags */
+p b, .leading-26 b, .po-sidebar-text-1 b, b {
+    font-weight: 500 !important;
 }
